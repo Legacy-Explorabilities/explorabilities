@@ -1,0 +1,256 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('img/beach.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+button {
+  background-color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: inset 0px 1px 0px 0px #FFF;
+  border: 1px solid #dcdcdc;
+  cursor: pointer;
+  color: #666;
+  text-shadow: 0px 1px 0px #FFF;
+  height: 30px;
+}
+
+#itinerary, nav, .save-itinerary, #place button, .itineraryItem button {
+  float: right;
+}
+
+#place, #itineraries, .nav-title, .itineraryHeader {
+  float: left;
+}
+
+#myplace-itineraries {
+  padding: 15px;
+}
+
+#myplace-itineraries button {
+  width: 200px;
+  display: block;
+  font-size: 14px;
+}
+
+.container {
+  width: 980px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.beautify {
+  font-family: 'Kaushan Script', cursive;
+}
+
+#searchForm {
+  width: 30%;
+  height: 2em;
+  margin: 20px auto;
+}
+
+#searchLabel {
+  padding-right: 5px;
+}
+
+#searchLabel img {
+  max-width: 30px;
+  max-height: 30px;
+  position: relative;
+  top: 10px;
+}
+
+#exploreContent, #myPlacesContent {
+  padding-top: 20px;
+}
+
+#mapEmbed {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+#googleMaps {
+  height: 400px;
+}
+
+#itinerary ul {
+  padding: 0;
+  margin: 15px;
+  list-style: none;
+}
+
+#itinerary li {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.save-itinerary {
+  margin: 15px 15px 0 0;
+}
+
+.save-text {
+
+}
+
+.placeHeader {
+  color: grey;
+}
+
+.itineraryItem {
+  margin: 20px 0px 30px 0px;
+  font-size: 12px;
+  border-bottom: 6px solid red;
+  background-color: lightgrey;
+  border-radius: 5px;
+
+}
+
+.itineraryHeader {
+  padding: 15px 15px 0 15px;
+  text-align: center;
+  color: grey;
+}
+
+.itineraryItem label{
+
+}
+
+#exploreButton {
+  background-image: linear-gradient(to bottom, #d98934, #47280d);
+  border-radius: 10px;
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+  font-size: 20px;
+  text-decoration: bold;
+  margin: 0px 0px 0px 20px;
+  padding: 2px 20px 2px 20px;
+  border: solid #f7e4c6 2px;
+}
+
+#logout {
+  float: right;
+  background-image: linear-gradient(to bottom, #d98934, #47280d);
+  border-radius: 10px;
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+  font-size: 10px;
+  margin: 0px 0px 0px 20px;
+  padding: 2px 20px 2px 20px;
+  border: solid #f7e4c6 2px;
+  width: 80px;
+}
+
+#itinerary, #place, #itineraries {
+  background-color: rgba(255, 255, 255, 0.9);
+  min-height: 100px;
+  width: 49%;
+  border-radius: 5px;
+  max-height: 700px;
+  overflow-y: auto;
+}
+
+#placeContent {
+  padding: 15px;
+}
+
+#authHeader {
+  padding-bottom: 8px;
+}
+
+#authHeader h1, .nav h2 {
+  color: white;
+}
+
+#authBody {
+  padding-top: 40px;
+}
+
+#authContainer {
+  padding: 30px 40px;
+  margin: 0 auto;
+  width: 570px;
+}
+
+#authContent {
+  background: white;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+#authBody img {
+  position: absolute;
+  left: -40px;
+  top: -20px;
+  z-index: -1;
+}
+
+#authNav button {
+  font-size: 12px;
+  width: 70px;
+}
+
+#signin, #signup {
+  padding: 20px;
+  height: 230px;
+}
+
+#signin h2, #signup h2 {
+  margin-bottom: 20px;
+}
+
+#signin input, #signup input {
+  box-shadow: none;
+  border-radius: 3px;
+  border: 1px solid #d8d8d8;
+  height: 30px;
+  width: 200px;
+  font-size: 14px;
+  padding: 0 5px;
+  margin-bottom: 5px;
+}
+
+.nav {
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.clearfix:after {
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.error-text {
+  padding-top: 10px;
+  font-size: 12px;
+  color: red;
+}
+
+.btn {
+  border-radius: 3px;
+  background: linear-gradient(to bottom, #FFF 5%, #f6f6f6 100%);
+}
